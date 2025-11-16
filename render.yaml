@@ -5,8 +5,8 @@ services:
     env: node
     region: oregon
     plan: free
-    buildCommand: cd backend && npm install
-    startCommand: cd backend && npm start
+    buildCommand: cd backend && yarn install
+    startCommand: cd backend && yarn start
     healthCheckPath: /health
     envVars:
       - key: PORT

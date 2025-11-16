@@ -18,8 +18,8 @@ This guide will help you deploy the Marketplace Savings app to free hosting plat
    - **Branch**: `claude/marketplace-savings-app-011CV3gMUbhtYJuDetRsw8pt`
    - **Root Directory**: `backend`
    - **Runtime**: Node
-   - **Build Command**: `npm install`
-   - **Start Command**: `npm start`
+   - **Build Command**: `yarn install`
+   - **Start Command**: `yarn start`
    - **Plan**: Free
 
 5. **Add Environment Variable**:
