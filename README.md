@@ -2,6 +2,33 @@
 
 A comprehensive web application for saving money while shopping in Israel. Compare prices across stores, find coupons, track price changes, and manage your shopping budget.
 
+## 🚀 Quick Deploy (Free!)
+
+Deploy your own instance in 5 minutes:
+
+### Option 1: Deploy with Render + Vercel (Recommended)
+
+1. **Backend (Render)**:
+   - Go to [render.com](https://render.com)
+   - Click "New Web Service" → Connect GitHub → Select this repo
+   - Root Directory: `backend`, Build: `npm install`, Start: `npm start`
+   - ✅ Deploy!
+
+2. **Frontend (Vercel)**:
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project" → Import this repo
+   - Root Directory: `frontend`, Framework: Vite
+   - Add env var: `VITE_API_URL` = your Render URL + `/api`
+   - ✅ Deploy!
+
+📖 **[Full Deployment Guide](./DEPLOYMENT.md)** - Step-by-step with screenshots
+
+### Option 2: Run Locally
+
+See [Quick Start](#-quick-start) below
+
+---
+
 ## ✨ Features
 
 ### 🏪 Price Comparison
